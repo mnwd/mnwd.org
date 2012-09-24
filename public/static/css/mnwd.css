@@ -1,3 +1,9 @@
+
+.span3.resource {
+	margin-bottom: 25px;
+}
+
+/* tag css for the /resources/ page */
 .label-design {
 	background-color: #01DF3A;
 }
