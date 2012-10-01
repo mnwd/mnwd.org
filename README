@@ -1,6 +1,0 @@
-Virtual Host Configuration:
-
-<VirtualHost *:80>
-    DocumentRoot "/Sites/mnwd/public"
-    ServerName mnwd.org
-</VirtualHost>
