@@ -1,5 +1,10 @@
 # Minnesota Web Development
-## mnwd-website
+
+## A Historical Note
+
+This is the source of the current MNWD website. Both the group and the website are inactive at the moment; this material is provided for archival purposes. It is not available for reuse or redistribution. If you would like to make a contribution, please open an issue.
+
+## Development
 
 This is the repository for hacking on the MNWD website, usually located at http://mnwd.org.
 
@@ -11,7 +16,7 @@ To get up and running, simply drop this in a live docroot and go.  The site is e
 * Fixing of trivial errors
 * Other cool things that you might develop and send to us in a pull request
 
-### Sammple Apache config
+### Sample Apache config
 ```
 <VirtualHost *:80>
     DocumentRoot "/Sites/mnwd/public"
@@ -19,7 +24,7 @@ To get up and running, simply drop this in a live docroot and go.  The site is e
 </VirtualHost>
 ```
 
-### Sample NGiNX config
+### Sample nginx config
 ```
 server {
     listen       *:80;
